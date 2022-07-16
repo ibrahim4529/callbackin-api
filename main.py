@@ -11,6 +11,7 @@ def index():
         "name": "Callbackin API",
         "version": "0.0.1",
         "description": "A simple app for provide simple callback from public to localhost over mqtt",
+        "github": "https://github.com/ibrahim4529/callbackin-api",
         "endpoints": [
             {
                 "name": "endpoint for callback",
@@ -18,7 +19,7 @@ def index():
                 "method": "GET/POST",
                 "description": "This endpoint is for receive data from provider and send to localhost over mqtt",
             }
-        ]
+        ],
     }
 
 
